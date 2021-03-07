@@ -23,7 +23,7 @@ body{
     border-radius: 20px;
     color: white;
     transition: width 0.4s , background 0.8s;
-    padding: 0 10px 0 10p;
+    padding: 0 10px 0 10px;
 }
 .input-box > input:focus{
     width: 450px;
