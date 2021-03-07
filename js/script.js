@@ -9,10 +9,8 @@ $(document).ready(function(){
             $(this).css("background","green") ;
         }
     })
-
-
-
 });
+
 
 var showText = new Vue({
     el:".input-box",
