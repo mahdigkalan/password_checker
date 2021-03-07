@@ -30,3 +30,7 @@ body{
     outline: none;
     background: rgb(74, 22, 133);
 }
+.input-box > div{
+    font-size: 22px ;
+    font-family: sans-serif ;
+}
