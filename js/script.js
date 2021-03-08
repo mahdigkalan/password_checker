@@ -20,12 +20,15 @@ var showText = new Vue({
                 input.style.background = "green" ;
                 this.text = input.value ;
             }
+
+            
         },
         showEvent:function(e){
             var code = e.charCode ;
             if(code == 32 ){
                 e.preventDefault();
-                
+            }else if(code == 13){
+                e.target.value = "" ;
             }
         }
     },
