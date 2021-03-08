@@ -29,6 +29,7 @@ var showText = new Vue({
                 e.preventDefault();
             }else if(code == 13){
                 e.target.value = "" ;
+                e.target.style.background = "darkorchid" ;
             }
         }
     },
